@@ -7,7 +7,7 @@ To properly add this to PolyBar, you have to edit both your modules and your con
 In your config file, there should be a section where it says `modules-___`. Add `isabattery-udev` to any of them. I personally prefer it on the right, but that's up to you.
 In your modules file, add the code shown below, so it will import the script and make it usable in polybar.
 ## Code
-```
+```bash
 [module/isabattery-udev]
 type = custom/script
 exec = /home/isabella/.config/polybar/scripts/isabattery-udev.sh
